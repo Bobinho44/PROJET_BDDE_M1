@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A0BC1E3-F6F2-D27A-8F64-EB4A82DAF94E" containerWithKeyObject="73A9CB58-A6EC-2A3E-9447-80DE136838A2" localFKIndex="0CF739F0-D107-B591-1714-C7F38F4B418A" name="FK_INSTALLATIONS_ECS_DPES">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>FK_INSTALLATIONS_ECS_DPES</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<referredTableLongName>DPES</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>4E7FA1F0-182C-D789-4F1A-6318A4859E55</referredTableID>
+<keyObject>57E5D5FE-83FD-D618-F302-9E148CDB6A98</keyObject>
+<referredKeyID>57E5D5FE-83FD-D618-F302-9E148CDB6A98</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NO_DPE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

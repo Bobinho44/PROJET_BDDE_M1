@@ -1,0 +1,370 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E7FA1F0-182C-D789-4F1A-6318A4859E55" name="DPES">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>DPES</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:04 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO_DPE" id="EFBDDF36-1EA9-1B44-68C0-A0A44F8D70C4">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>NO_DPE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LOGEMENT" id="ABE0D85E-D1E3-F286-B388-560F111AADB1">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>ID_LOGEMENT</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="249A6F17-BAF2-43EC-345F-266B10D87685" referredColumn="58682D1F-C04B-00EF-0E17-314F51171C81"/>
+</associations>
+</Column>
+<Column name="DATE_RECEPTION" id="34838E2A-AB6A-A46C-9668-F6154782572D">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>DATE_RECEPTION</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_DPES_DATE_RECEPTION</notNullConstraintName>
+</Column>
+<Column name="DATE_ETABLISSEMENT" id="20275CE1-2C48-C697-D3B9-0A1E6FEDF9FC">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>DATE_ETABLISSEMENT</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_DPES_DATE_ETABLISSEMENT</notNullConstraintName>
+</Column>
+<Column name="DATE_VISITE" id="F9648BD7-119E-448A-4796-983EECDA9F33">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>DATE_VISITE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_DPES_DATE_VISITE</notNullConstraintName>
+</Column>
+<Column name="DPE_REMPLACE" id="BC790466-B87A-A5DC-AD5A-94CC426BD726">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>DPE_REMPLACE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_DPES_DPE_REMPLACE</notNullConstraintName>
+</Column>
+<Column name="DATE_FIN_VALIDITE" id="73FF3BC7-CB9D-AC31-875F-BEC6DC6639B6">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>DATE_FIN_VALIDITE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_DPES_DATE_FIN_VALIDITE</notNullConstraintName>
+</Column>
+<Column name="VERSION" id="294C5ED1-08BC-3CA0-F911-D723F1CB9189">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>VERSION</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_DPES_VERSION</notNullConstraintName>
+</Column>
+<Column name="APPARTEMENT_NON_VISITE" id="9E17FA57-ED37-F0EF-A480-46E4ED32CB24">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>APPARTEMENT_NON_VISITE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_IMMATRICULATION_COPROPRIETE" id="B5AF1715-64C0-BEA9-262F-6B8EACD7F008">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>NO_IMMATRICULATION_COPROPRIETE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVARIANT_FISCAL_LOGEMENT" id="C57726E1-AEB6-B7EB-A10F-23E7B4FDD599">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>INVARIANT_FISCAL_LOGEMENT</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ETIQUETTE_GES" id="DCD8245E-74ED-7A1C-AE1C-31E10E687AC7">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>ETIQUETTE_GES</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_DPES_ETIQUETTE_GES</notNullConstraintName>
+</Column>
+<Column name="ETIQUETTE_DPE" id="9F96BB4A-4828-3EB1-1BF4-557D0774D007">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>ETIQUETTE_DPE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_DPES_ETIQUETTE_DPE</notNullConstraintName>
+</Column>
+<Column name="TYPE_VENTILATION" id="7F3168EB-C5A1-ECC9-4ADC-AF68FD5619A9">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>TYPE_VENTILATION</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SURFACE_VENTILEE" id="DDD4D5B3-CBA9-8107-49A1-110139AFE737">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>SURFACE_VENTILEE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,6,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_ENR" id="9457744F-F418-24D6-A258-4443044B32C2">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>TYPE_ENR</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONSO_ENR" id="7DB0D61E-D737-056E-24C8-C85D4807E6CE">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>CONSO_ENR</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTION_ENR" id="2C91816C-1890-2369-CC5F-AB149EC41D8F">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>PRODUCTION_ENR</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,8,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SURFACE_CAPTEURS_PV" id="64CA8001-AE1C-849E-0DD8-E9178763FB10">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>DPES</sourceObjSchema>
+<sourceObjName>SURFACE_CAPTEURS_PV</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,5,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57E5D5FE-83FD-D618-F302-9E148CDB6A98" name="PK_DPES">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_DPES</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:12 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBDDF36-1EA9-1B44-68C0-A0A44F8D70C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E399F609-01E8-3929-21D9-E69746CBEE03" schemaObject="C212435C-A1E8-4EF5-B7EF-9CE7C6852965" name="PK_DPES">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_DPES</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:10 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBDDF36-1EA9-1B44-68C0-A0A44F8D70C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88ADC277-4E78-292A-B848-0337A5CEE5FA" name="FK_DPES_LOGEMENTS">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE0D85E-D1E3-F286-B388-560F111AADB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHK_DPES_ENR" directorySegmentName="seg_0" id="D30F690C-19A5-CAB8-7503-981ABDD9CC28">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>CHK_DPES_ENR</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:14 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<rule><![CDATA[conso_enr IS NOT NULL AND production_enr IS NOT NULL AND surface_capteurs_pv IS NOT NULL
+                                          OR conso_enr IS     NULL AND production_enr IS     NULL AND surface_capteurs_pv IS     NULL AND type_enr IS NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CHK_DPES_VENTILATION" directorySegmentName="seg_0" id="DD1E8FCA-23E3-A778-A0D6-33017815E8B5">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>CHK_DPES_VENTILATION</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:14 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<rule><![CDATA[type_ventilation IS NOT NULL AND surface_ventilee IS NOT NULL
+                                          OR type_ventilation IS     NULL AND surface_ventilee IS     NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

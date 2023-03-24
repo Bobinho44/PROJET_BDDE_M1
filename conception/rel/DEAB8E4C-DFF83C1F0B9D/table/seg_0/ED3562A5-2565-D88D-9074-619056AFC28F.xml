@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED3562A5-2565-D88D-9074-619056AFC28F" name="COMMUNES">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>COMMUNES</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:04 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE_INSEE" id="585ED7E9-3410-BED8-167F-6FCD970EB7CF">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>COMMUNES</sourceObjSchema>
+<sourceObjName>CODE_INSEE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_DEPARTEMENT" id="DE075A4B-C060-9178-9095-A57C2DD681A5">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>COMMUNES</sourceObjSchema>
+<sourceObjName>NO_DEPARTEMENT</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_COMMUNES_NO_DEPARTEMENT</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A35C5E8C-B78D-1CEE-8531-DFD5410FE7F2" referredColumn="C3465495-9DA3-9DFB-4FC2-EF175983AE58"/>
+</associations>
+</Column>
+<Column name="NOM_COMMUNE" id="6DB0171A-7892-55AD-455D-B6C28E2BDC02">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>COMMUNES</sourceObjSchema>
+<sourceObjName>NOM_COMMUNE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_COMMUNES_NOM_COMMUNE</notNullConstraintName>
+</Column>
+<Column name="CODE_POSTAL" id="6F7F6D67-653A-E1FA-2255-145D26E97787">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>COMMUNES</sourceObjSchema>
+<sourceObjName>CODE_POSTAL</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_COMMUNES_CODE_POSTAL</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="391594F9-CD80-A357-2EEB-D2C4F47E57C7" name="PK_COMMUNES">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_COMMUNES</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:12 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="585ED7E9-3410-BED8-167F-6FCD970EB7CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58A5BCA4-C593-DB24-D8CC-93C57C9E7B92" schemaObject="C212435C-A1E8-4EF5-B7EF-9CE7C6852965" name="PK_COMMUNES">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_COMMUNES</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:08 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="585ED7E9-3410-BED8-167F-6FCD970EB7CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40E5ACEF-329D-A437-4942-2042F544D35B" name="FK_COMMUNES_DEPARTEMENTS">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE075A4B-C060-9178-9095-A57C2DD681A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

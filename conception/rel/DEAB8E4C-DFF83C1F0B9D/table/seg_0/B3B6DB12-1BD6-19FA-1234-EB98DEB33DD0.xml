@@ -1,0 +1,304 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3B6DB12-1BD6-19FA-1234-EB98DEB33DD0" name="GENERATEURS">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>GENERATEURS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:04 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO_DPE" id="0E262D7F-2117-F790-A133-2CF5DAC72920">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>NO_DPE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22C63A57-EA02-1979-738E-797C80859673" referredColumn="EFBDDF36-1EA9-1B44-68C0-A0A44F8D70C4"/>
+<colAssociation fkAssociation="01138F63-C96A-46A1-DC57-DC693B745100" referredColumn="3ADA35D2-97F3-3FE9-41CE-6231E39B9265"/>
+<colAssociation fkAssociation="BB3A3652-424A-EA89-0DF1-80E630F00DCA" referredColumn="FAE69E99-964A-F7BC-46A7-6DF67CFAA55C"/>
+<colAssociation fkAssociation="C3277634-A673-F46C-0362-43DAC04B4B53" referredColumn="82EA95EF-E881-5BA1-01DF-65AB57FD446D"/>
+</associations>
+</Column>
+<Column name="NO_GENERATEUR" id="AF67458A-62C1-ECB5-64B0-2D730086A4FA">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>NO_GENERATEUR</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_INSTALLATION_CHAUFFAGE" id="4C9973A5-ED49-08E8-6E49-04434D5B2E2F">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>NO_INSTALLATION_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01138F63-C96A-46A1-DC57-DC693B745100" referredColumn="82111AF7-3D67-5396-813E-45EC05FE3561"/>
+</associations>
+</Column>
+<Column name="NO_INSTALLATION_ECS" id="E37B98AE-96D6-534E-B2FC-AFBAD48DAB5B">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>NO_INSTALLATION_ECS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB3A3652-424A-EA89-0DF1-80E630F00DCA" referredColumn="4C98B47E-BDCF-09D7-9534-76EA88E321B6"/>
+</associations>
+</Column>
+<Column name="NO_INSTALLATION_SOLAIRE" id="2F451F3A-F8B9-3002-2F98-2BE067BB0F91">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>NO_INSTALLATION_SOLAIRE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3277634-A673-F46C-0362-43DAC04B4B53" referredColumn="448BDC8A-E531-A3B4-FAB3-5CADA3DA750E"/>
+</associations>
+</Column>
+<Column name="CONSO_CHAUFFAGE" id="E514B7EE-34E6-FDDB-276E-A1C760CF5296">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>CONSO_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,8,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_GENERATEURS_CONSO_CHAUFFAGE</notNullConstraintName>
+</Column>
+<Column name="CONSO_CHAUFFAGE_DEPENSIER" id="DC906256-45BE-4678-0128-CEA89910AAD8">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>CONSO_CHAUFFAGE_DEPENSIER</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,8,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_GENERATEURS_CONSO_CHAUFFAGE_DEPENSIER</notNullConstraintName>
+</Column>
+<Column name="CONSO_ECS" id="623E79E2-4D8F-1D5A-E851-79596F38C9C9">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>CONSO_ECS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,8,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_GENERATEURS_CONSO_ECS</notNullConstraintName>
+</Column>
+<Column name="CONSO_ECS_DEPENSIER" id="899B1262-2CE4-F1EE-FF6E-7090A8E4EFFE">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>CONSO_ECS_DEPENSIER</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,8,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_GENERATEURS_CONSO_ECS_DEPENSIER</notNullConstraintName>
+</Column>
+<Column name="DESCRIPTION_GENERATEUR" id="94136E89-2880-E479-4CFF-520EDE4C91C4">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>DESCRIPTION_GENERATEUR</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_INSTALLATION_GENERATEUR" id="83644DC8-4327-A990-EAE4-89E43F482441">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>DATE_INSTALLATION_GENERATEUR</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_ENERGIE" id="F11B6624-3684-02E6-8ACF-DF843554B2F4">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>TYPE_ENERGIE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_GENERATEURS_TYPE_ENERGIE</notNullConstraintName>
+</Column>
+<Column name="TYPE_GENERATEUR" id="7A4E0280-7031-C178-2D8B-8C23B1BF6DD4">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>GENERATEURS</sourceObjSchema>
+<sourceObjName>TYPE_GENERATEUR</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_GENERATEURS_TYPE_GENERATEUR</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2553B8D2-DF0D-7988-412D-D1EA5922A322" name="PK_GENERATEURS">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_GENERATEURS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:12 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E262D7F-2117-F790-A133-2CF5DAC72920"/>
+<colUsage columnID="AF67458A-62C1-ECB5-64B0-2D730086A4FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47512A40-A705-C575-A971-C250D305EACC" schemaObject="C212435C-A1E8-4EF5-B7EF-9CE7C6852965" name="PK_GENERATEURS">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_GENERATEURS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:10 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E262D7F-2117-F790-A133-2CF5DAC72920"/>
+<colUsage columnID="AF67458A-62C1-ECB5-64B0-2D730086A4FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="836D7DEB-5404-6F50-96F5-33EBFE4B491C" name="FK_GENERATEURS_DPES">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E262D7F-2117-F790-A133-2CF5DAC72920"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29A1F59F-6B6E-1D80-8756-2FC21C2CC812" name="FK_GENERATEURS_INSTALLATIONS_CHAUFFAGE">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E262D7F-2117-F790-A133-2CF5DAC72920"/>
+<colUsage columnID="4C9973A5-ED49-08E8-6E49-04434D5B2E2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91F24551-4B67-7B74-999B-EF7E1FFF837D" name="FK_GENERATEURS_INSTALLATIONS_ECS">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E262D7F-2117-F790-A133-2CF5DAC72920"/>
+<colUsage columnID="E37B98AE-96D6-534E-B2FC-AFBAD48DAB5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6018F98C-391C-1B0E-9CF0-469114ED106E" name="FK_GENERATEURS_INSTALLATIONS_SOLAIRE">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E262D7F-2117-F790-A133-2CF5DAC72920"/>
+<colUsage columnID="2F451F3A-F8B9-3002-2F98-2BE067BB0F91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

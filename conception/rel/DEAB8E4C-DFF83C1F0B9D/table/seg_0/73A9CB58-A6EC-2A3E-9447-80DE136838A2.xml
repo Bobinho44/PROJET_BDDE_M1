@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73A9CB58-A6EC-2A3E-9447-80DE136838A2" name="INSTALLATIONS_ECS">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>INSTALLATIONS_ECS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:04 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO_DPE" id="FAE69E99-964A-F7BC-46A7-6DF67CFAA55C">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_ECS</sourceObjSchema>
+<sourceObjName>NO_DPE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A0BC1E3-F6F2-D27A-8F64-EB4A82DAF94E" referredColumn="EFBDDF36-1EA9-1B44-68C0-A0A44F8D70C4"/>
+</associations>
+</Column>
+<Column name="NO_INSTALLATION_ECS" id="4C98B47E-BDCF-09D7-9534-76EA88E321B6">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_ECS</sourceObjSchema>
+<sourceObjName>NO_INSTALLATION_ECS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION_INSTALLATION_ECS" id="800FE5BF-61B5-9EAA-69F4-7682CE22A0E2">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_ECS</sourceObjSchema>
+<sourceObjName>DESCRIPTION_INSTALLATION_ECS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_INSTALLATION_ECS" id="C3C25E7F-2EFC-BC69-24AB-6084268A2B9E">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_ECS</sourceObjSchema>
+<sourceObjName>TYPE_INSTALLATION_ECS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_INSTALLATIONS_ECS_TYPE_INSTALLATION_ECS</notNullConstraintName>
+</Column>
+<Column name="CONFIGURATION_INSTALLATION_ECS" id="8717A942-E6AA-357E-2B2D-BA01D8197FFB">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_ECS</sourceObjSchema>
+<sourceObjName>CONFIGURATION_INSTALLATION_ECS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_INSTALLATIONS_ECS_CONFIGURATION_INSTALLATION_ECS</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90051D07-2AD2-B4B4-5613-1F416D79B0F7" name="PK_INSTALLATIONS_ECS">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_INSTALLATIONS_ECS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:12 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAE69E99-964A-F7BC-46A7-6DF67CFAA55C"/>
+<colUsage columnID="4C98B47E-BDCF-09D7-9534-76EA88E321B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="360182D1-BFA9-7BE2-8E79-F2B15BEB2976" schemaObject="C212435C-A1E8-4EF5-B7EF-9CE7C6852965" name="PK_INSTALLATIONS_ECS">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_INSTALLATIONS_ECS</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:10 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAE69E99-964A-F7BC-46A7-6DF67CFAA55C"/>
+<colUsage columnID="4C98B47E-BDCF-09D7-9534-76EA88E321B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CF739F0-D107-B591-1714-C7F38F4B418A" name="FK_INSTALLATIONS_ECS_DPES">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAE69E99-964A-F7BC-46A7-6DF67CFAA55C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DEPARTEMENTS" directorySegmentName="seg_0" id="4BA15D5B-553C-295C-1471-EDAF6DDE1A0D">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:04 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C952623-FD45-1D80-4873-F1A9919F6911</segment>
+<tableSpace>15514ECF-9598-03D3-9033-8D5D7EDC6BA0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ZONE_CLIMATIQUE" id="81485381-DC7E-0E40-9B7A-1566EBDC5D8F">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO_DEPARTEMENT" id="C3465495-9DA3-9DFB-4FC2-EF175983AE58">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO_REGION" id="E7C40EE9-FA01-B570-3DBD-BFAB4271C8B6">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_DEPARTEMENTS" id="8C085784-7DFD-0D67-9719-F8AC050AE671">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:10 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<schemaObject>C212435C-A1E8-4EF5-B7EF-9CE7C6852965</schemaObject>
+<segment>A4BA493F-0340-6AB4-9D05-0A8263E31CF7</segment>
+<tableSpace>15514ECF-9598-03D3-9033-8D5D7EDC6BA0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DEPARTEMENTS" id="3C7AACB1-CFE9-E556-B2A6-4BA77F901227">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:12 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<segment>A4BA493F-0340-6AB4-9D05-0A8263E31CF7</segment>
+<tableSpace>15514ECF-9598-03D3-9033-8D5D7EDC6BA0</tableSpace>
+<existingIndex>8C085784-7DFD-0D67-9719-F8AC050AE671</existingIndex>
+<indexSegment>A4BA493F-0340-6AB4-9D05-0A8263E31CF7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

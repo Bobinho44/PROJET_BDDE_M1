@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="01138F63-C96A-46A1-DC57-DC693B745100" containerWithKeyObject="B3B6DB12-1BD6-19FA-1234-EB98DEB33DD0" localFKIndex="29A1F59F-6B6E-1D80-8756-2FC21C2CC812" name="FK_GENERATEURS_INSTALLATIONS_CHAUFFAGE">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>FK_GENERATEURS_INSTALLATIONS_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<referredTableLongName>INSTALLATIONS_CHAUFFAGE</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>36622E4F-9EC1-96EC-DB33-49203C4DA7F6</referredTableID>
+<keyObject>76242935-F530-7CAF-6E5E-BE685AD5A22B</keyObject>
+<referredKeyID>76242935-F530-7CAF-6E5E-BE685AD5A22B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>NO_DPE,NO_INSTALLATION_CHAUFFAGE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

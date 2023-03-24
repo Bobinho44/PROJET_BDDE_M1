@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36622E4F-9EC1-96EC-DB33-49203C4DA7F6" name="INSTALLATIONS_CHAUFFAGE">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>INSTALLATIONS_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:04 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO_DPE" id="3ADA35D2-97F3-3FE9-41CE-6231E39B9265">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_CHAUFFAGE</sourceObjSchema>
+<sourceObjName>NO_DPE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD7B3A7C-0807-16E5-9B28-9EC21D8377BE" referredColumn="EFBDDF36-1EA9-1B44-68C0-A0A44F8D70C4"/>
+</associations>
+</Column>
+<Column name="NO_INSTALLATION_CHAUFFAGE" id="82111AF7-3D67-5396-813E-45EC05FE3561">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_CHAUFFAGE</sourceObjSchema>
+<sourceObjName>NO_INSTALLATION_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION_INSTALLATION_CHAUFFAGE" id="6A3BCE7C-FC50-41C1-0943-0578F1C3010E">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_CHAUFFAGE</sourceObjSchema>
+<sourceObjName>DESCRIPTION_INSTALLATION_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_INSTALLATION_CHAUFFAGE" id="0340059D-6D6E-B804-9DEB-5C1EE3EDD15F">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_CHAUFFAGE</sourceObjSchema>
+<sourceObjName>TYPE_INSTALLATION_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_INSTALLATIONS_CHAUFFAGE_TYPE_INSTALLATION_CHAUFFAGE</notNullConstraintName>
+</Column>
+<Column name="CONFIGURATION_INSTALLATION_CHAUFFAGE" id="301C473F-6E49-9D0A-C16C-9ACF00A9A9B9">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_CHAUFFAGE</sourceObjSchema>
+<sourceObjName>CONFIGURATION_INSTALLATION_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_INSTALLATIONS_CHAUFFAGE_CONFIGURATION_INSTALLATION_CHAUFFAGE</notNullConstraintName>
+</Column>
+<Column name="SURFACE_CHAUFFEE" id="CD1504BA-6622-68AC-BCDA-0C4E3110A5CC">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_CHAUFFAGE</sourceObjSchema>
+<sourceObjName>SURFACE_CHAUFFEE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,6,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_INSTALLATIONS_CHAUFFAGE_SURFACE_CHAUFFEE</notNullConstraintName>
+</Column>
+<Column name="TYPE_EMETTEUR_CHAUFFAGE" id="0727B7E5-1F38-3C4B-5A7E-A764F4BED350">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>INSTALLATIONS_CHAUFFAGE</sourceObjSchema>
+<sourceObjName>TYPE_EMETTEUR_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:05 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_INSTALLATIONS_CHAUFFAGE_TYPE_EMETTEUR_CHAUFFAGE</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76242935-F530-7CAF-6E5E-BE685AD5A22B" name="PK_INSTALLATIONS_CHAUFFAGE">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_INSTALLATIONS_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:12 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ADA35D2-97F3-3FE9-41CE-6231E39B9265"/>
+<colUsage columnID="82111AF7-3D67-5396-813E-45EC05FE3561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B292AC76-8245-48F9-A7D5-F6F658E3AB54" schemaObject="C212435C-A1E8-4EF5-B7EF-9CE7C6852965" name="PK_INSTALLATIONS_CHAUFFAGE">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>PK_INSTALLATIONS_CHAUFFAGE</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:10 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ADA35D2-97F3-3FE9-41CE-6231E39B9265"/>
+<colUsage columnID="82111AF7-3D67-5396-813E-45EC05FE3561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78FF02E9-3D69-4D44-460A-CA69BA46661B" name="FK_INSTALLATIONS_CHAUFFAGE_DPES">
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ADA35D2-97F3-3FE9-41CE-6231E39B9265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

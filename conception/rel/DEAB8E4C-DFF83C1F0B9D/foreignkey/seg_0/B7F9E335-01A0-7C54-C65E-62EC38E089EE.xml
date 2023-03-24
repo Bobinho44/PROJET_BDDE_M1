@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7F9E335-01A0-7C54-C65E-62EC38E089EE" containerWithKeyObject="6D49A95D-8014-7CB2-2559-DB6BE38CDE89" localFKIndex="D46F3569-4D02-565D-04A6-4ABB20EDCDAF" name="FK_LOGEMENTS_COMMUNES">
+<sourceConnName>ProjetBdBA</sourceConnName>
+<sourceObjSchema>TESTUSER</sourceObjSchema>
+<sourceObjName>FK_LOGEMENTS_COMMUNES</sourceObjName>
+<createdBy>olese</createdBy>
+<createdTime>2023-03-20 07:07:15 UTC</createdTime>
+<ownerDesignName>conception</ownerDesignName>
+<referredTableLongName>COMMUNES</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>ED3562A5-2565-D88D-9074-619056AFC28F</referredTableID>
+<keyObject>391594F9-CD80-A357-2EEB-D2C4F47E57C7</keyObject>
+<referredKeyID>391594F9-CD80-A357-2EEB-D2C4F47E57C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODE_INSEE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
